@@ -128,7 +128,6 @@ Add your screenshots here:
 ---
 
 ## 👨‍💻 Contributors  
-## Contributors
 - [Mubeen Shaikh](https://github.com/mubeenshaikh2006)
 - [Simran Sayyed](https://github.com/simransayyed2005)
 - [Azmin Kazi](https://github.com/azminkazi)
