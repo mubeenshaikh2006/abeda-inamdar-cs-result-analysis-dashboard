@@ -120,7 +120,7 @@ Add your screenshots here:
 
 ```md
 ![FY Dashboard](Images/FY_dashboard.png)
-![SY Dashboard](Images/SY_dashboard.png)
+![SY Dashboard](Images/SY_dashboard.jpeg)
 ![TY Dashboard](Images/TY_dashboard.png)
 ![Final Comparison Dashboard](Images/final_comparison.png)
 ```
