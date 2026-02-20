@@ -115,14 +115,19 @@ These KPIs give a quick snapshot of class performance.
 
 ---
 
-## 📷 Dashboard Preview  
+## Dashboard Preview
 
-
+### 1) FY B.Sc. Computer Science – Result Analysis Dashboard
 ![FY Dashboard](Images/FY_dashboard.png)
-![SY Dashboard](Images/SY_dashboard.png)
-![TY Dashboard](Images/TY_dashboard.png)
-![Final Comparison Dashboard](Images/final_comparison.png)
 
+### 2) SY B.Sc. Computer Science – Result Analysis Dashboard
+![SY Dashboard](Images/SY_dashboard.jpeg)
+
+### 3) TY B.Sc. Computer Science – Result Analysis Dashboard
+![TY Dashboard](Images/TY_dashboard.png)
+
+### 4) FY vs SY vs TY – Result Comparison Dashboard
+![Final Comparison Dashboard](Images/final_comparison.png)
 
 ---
 
