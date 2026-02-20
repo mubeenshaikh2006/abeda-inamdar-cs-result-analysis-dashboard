@@ -1,4 +1,4 @@
-## 🎓 Abeda Inamdar CS Department Result Analysis Dashboard (Power BI)  
+# 🎓 Abeda Inamdar CS Department Result Analysis Dashboard
 An interactive **Power BI Result Analytics Dashboard** built to analyze the academic performance of the **Computer Science Department** at **Abeda Inamdar Senior College of Arts, Science and Commerce, Pune**. This project converts **official result PDFs** into structured data, performs **error handling + data cleaning**, and presents insights through **class-wise dashboards (FY/SY/TY)** and a **final comparison dashboard** for smarter academic analysis.
 
 ---
@@ -128,9 +128,10 @@ Add your screenshots here:
 ---
 
 ## 👨‍💻 Contributors  
-- **Mubeen Shaikh**  
-- **Simran Sayyed** @simransayyed2005 
-- **Azmin Kazi**
+## Contributors
+- [Mubeen Shaikh](https://github.com/mubeenshaikh2006)
+- [Simran Sayyed](https://github.com/simransayyed2005)
+- [Azmin Kazi](https://github.com/azminkazi)
 
 ---
 
