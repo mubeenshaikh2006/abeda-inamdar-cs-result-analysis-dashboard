@@ -116,7 +116,6 @@ These KPIs give a quick snapshot of class performance.
 ---
 
 ## 📷 Dashboard Preview  
-Add your screenshots here:
 
 ```md
 ![FY Dashboard](Images/FY_dashboard.png)
