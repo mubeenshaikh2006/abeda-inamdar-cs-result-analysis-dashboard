@@ -1,153 +1,129 @@
-🎓 **Abeda Inamdar CS Department – Result Analysis Dashboard**  
-An interactive **Power BI Result Analytics Dashboard** built to analyze **FY, SY, and TY (B.Sc. Computer Science)** results from the college’s **official result PDFs**.  
-This project demonstrates the complete **Data Analyst workflow**—from **manual data extraction → error handling → cleaning → modeling → dashboarding**—to convert raw result sheets into clear, decision-ready insights.
+## 🎓 Abeda Inamdar CS Department Result Analysis Dashboard (Power BI)  
+An interactive **Power BI Result Analytics Dashboard** built to analyze the academic performance of the **Computer Science Department** at **Abeda Inamdar Senior College of Arts, Science and Commerce, Pune**. This project converts **official result PDFs** into structured data, performs **error handling + data cleaning**, and presents insights through **class-wise dashboards (FY/SY/TY)** and a **final comparison dashboard** for smarter academic analysis.
 
 ---
 
 ## 📌 Project Overview  
-The **CS Department Result Analysis Dashboard** helps understand:
+The **Result Analysis Dashboard** helps understand:
 
-✔ Overall **student performance** (Pass/Fail, Average SGPA)  
-✔ **Class-wise comparison** (FY vs SY vs TY)  
-✔ **Grade distribution** and result trends  
-✔ **Subject-wise performance** (average marks / top subjects)  
-✔ **Gender-wise performance**  
-✔ **Top 10 students** ranking by Percentage/SGPA  
-✔ Interactive filtering using **slicers** (Class, Grade, Gender, Result)
+✔ Total students, pass students, fail students (FY/SY/TY)  
+✔ Average SGPA and performance trends  
+✔ Pass vs Fail analysis (class-wise)  
+✔ Grade distribution insights  
+✔ Subject-wise average marks / subject performance  
+✔ Gender-wise performance comparison  
+✔ Top 10 students (ranked by % / SGPA)  
+✔ Final dashboard for **FY vs SY vs TY comparison**
 
-Instead of checking result PDFs and Excel manually, this dashboard provides a **fast and visual performance analysis tool**.
+Instead of checking PDF results manually, this dashboard provides a clean, interactive and visual way to explore department performance.
 
 ---
 
 ## 🎯 Objective  
 The goal of this project is to:
 
-1) Convert official **result PDF data into structured Excel datasets** (FY/SY/TY)  
-2) Practice **real-world data quality challenges** by intentionally adding errors  
-3) Collaboratively **detect, fix, and validate** those errors  
-4) Build a clean, analysis-ready dataset for reporting  
-5) Create interactive **Power BI dashboards** for insights and comparisons
+1) Convert official result PDFs into analysis-ready structured data (Excel)  
+2) Practice a real-world workflow: **data collection → error identification → cleaning → reporting**  
+3) Identify performance patterns across **FY, SY, TY**  
+4) Compare pass/fail, grades, SGPA and subject performance across classes  
+5) Build a Power BI dashboard that supports **academic decision-making**
 
 ---
 
 ## 🛠️ Tech Stack Used  
-📊 **Power BI Desktop** – Dashboard development & visualization  
-📂 **Power Query** – Data cleaning, formatting, transformations  
-🧠 **DAX (Data Analysis Expressions)** – Measures/KPIs (Pass%, Avg SGPA, counts, rankings)  
-📁 **Microsoft Excel** – Manual data entry + structured sheets for FY/SY/TY  
-🧩 **Data Modeling** – Master table, relationships, filters/slicers  
-🖼 **PNG Export** – Dashboard screenshots for documentation
+📊 **Power BI Desktop** – Dashboard creation & interactive visualizations  
+📂 **Power Query** – Data cleaning, transformations, formatting  
+🧠 **DAX (Data Analysis Expressions)** – Measures/KPIs (Pass %, Avg SGPA, etc.)  
+📁 **Microsoft Excel** – Manual data entry + structured dataset creation  
+📝 **Data Modeling** – Master table + relationships/filtering logic  
+🖼 **PNG Export** – Dashboard preview for documentation  
 
 ---
 
 ## 📂 Data Source  
-The dataset was prepared from **official result PDFs** of the **Computer Science Department** (Abeda Inamdar Senior College of Arts, Science and Commerce, Pune).
+The dataset was created from the **Computer Science Department’s official result PDFs**.
 
-The Excel dataset contains fields such as:
+Process followed:
 
-1) Student details (Name, Seat No, Enrollment No, Class)  
-2) Gender  
-3) Subjects & Marks  
-4) Total Marks & Percentage  
-5) Grade  
-6) SGPA  
-7) Result (PASS/FAIL)
+1) Took result PDFs for **FY, SY, TY**  
+2) Manually entered data into Excel (student-wise)  
+3) Intentionally added errors for practice (data quality simulation)  
+4) Verified each other’s entries, corrected mistakes, and cleaned the dataset  
+5) Used the cleaned dataset in Power BI to build dashboards  
 
-> Note: Data was manually entered from PDFs into Excel, then cleaned and validated before using in Power BI.
-
----
-
-## 🧹 Data Preparation & Cleaning Workflow  
-✔ Manual data entry from FY/SY/TY PDFs into Excel  
-✔ Intentionally inserted common errors (typos, wrong totals, incorrect grades, missing values)  
-✔ Cross-checked each other’s entries and corrected errors  
-✔ Standardized values (Grade, Result, Subject naming)  
-✔ Ensured numeric consistency (Marks, Percentage, SGPA)  
-✔ Final merged structure for cross-class comparison in Power BI
+> Note: FY/SY/TY have different subjects, but the overall structure and dashboard logic remains the same.
 
 ---
 
 ## 📊 Dashboard Features & Insights  
 
 ### 🔢 Key Performance Indicators (KPIs)  
-Shows a quick snapshot like:  
-- **Total Students**  
-- **Pass Students / Fail Students**  
-- **Average SGPA**
+Includes major metrics such as:  
+- Total Students  
+- Pass Students  
+- Fail Students  
+- Average SGPA  
 
-(These KPIs update dynamically based on selected class/filters.)
+These KPIs give a quick snapshot of class performance.
 
 ---
 
-### ✅ Pass vs Fail Analysis  
-Pie/summary visuals showing pass and fail distribution.  
-➡ Helps quickly understand overall performance and failure rate.
+### 🟢 Pass vs Fail Analysis  
+- Visual comparison of **Pass vs Fail** for each class  
+➡ Helps quickly evaluate overall result performance.
 
 ---
 
 ### 🏅 Grade Distribution  
-Class-wise grade distribution (A++, A, B, C, D, etc.).  
-➡ Helps identify performance concentration and academic outcomes.
+- Distribution of grades (A++, A, B, C, D, etc.) class-wise  
+➡ Helps understand how performance is spread across categories.
 
 ---
 
-### 📚 Subject-wise Performance  
-- Average marks by subject  
-- Top subjects (high scoring) and weak subjects (low scoring)  
-➡ Helps identify which subjects need more focus and improvement.
+### 📚 Subject-wise Performance (Average Marks)  
+- Subject breakdown by average marks  
+➡ Helps identify strong and weak subjects (class-wise).
 
 ---
 
 ### 👥 Gender-wise Performance  
-Performance comparison across **Male vs Female** (based on dashboard measure).  
-➡ Supports performance breakdown and category analysis.
+- Comparison of performance across **Male vs Female**  
+➡ Useful for understanding performance patterns by gender.
 
 ---
 
-### 🥇 Top 10 Students  
-Dynamic table showing top performers with:  
-- Name  
-- Percentage  
-- SGPA  
-➡ Highlights rankers and overall toppers.
+### 🏆 Top 10 Students  
+- List of top students with **Percentage** and **SGPA**  
+➡ Highlights high achievers for each class.
 
 ---
 
-### 🆚 FY vs SY vs TY Comparison (Final Dashboard)  
-A combined dashboard to compare:  
-- KPIs across FY/SY/TY  
-- Grade and result trends  
-- Performance patterns by class  
-➡ Helps department-level comparison at a glance.
+### 📈 Final FY vs SY vs TY Comparison Dashboard  
+- Combined dashboard to compare FY, SY, TY on key metrics  
+➡ Helps understand overall department progression across years.
 
 ---
 
 ## 💡 Insights Derived (Examples)  
-✔ Identify which class has higher pass percentage (FY vs SY vs TY)  
-✔ Detect subject-wise difficulty areas through low average marks  
-✔ Observe grade distribution differences among classes  
-✔ Track performance differences by gender (as per dataset)  
-✔ Identify consistent top-performing students
+✔ Clear view of pass rate differences between FY, SY, TY  
+✔ Identifies grade pattern changes across classes  
+✔ Helps spot subjects with low average performance  
+✔ Makes it easy to compare gender-wise outcomes  
+✔ Highlights toppers and their SGPA/% consistently
+
+(You can edit this section after finalizing your conclusions.)
 
 ---
 
 ## 📷 Dashboard Preview  
-Add screenshots in your repo and link like this:
+Add your screenshots here:
 
 ```md
-![FY Dashboard](images/fy_dashboard.png)
-![SY Dashboard](images/sy_dashboard.png)
-![TY Dashboard](images/ty_dashboard.png)
-![Final Comparison Dashboard](images/final_comparison_dashboard.png)
+![FY Dashboard](images/FY_dashboard.png)
+![SY Dashboard](images/SY_dashboard.png)
+![TY Dashboard](images/TY_dashboard.png)
+![Final Comparison Dashboard](images/final_comparison.png)
 ```
-
----
-
-## ▶️ How to Use  
-1) Download/Clone this repository  
-2) Open the **.pbix** file in **Power BI Desktop**  
-3) Use slicers (Class, Grade, Gender, Result) to explore insights  
-4) View individual class pages (FY/SY/TY) + final comparison page
 
 ---
 
@@ -158,9 +134,4 @@ Add screenshots in your repo and link like this:
 
 ---
 
-## 📌 Disclaimer  
-This project is created for **educational and academic analysis purposes**. Data is based on official result PDFs and was manually entered/cleaned for learning and dashboard practice.
-
----
-
-Agar tum mujhe **repo ka actual project name** (new repo name) bata do, main isi README ke top title/one-line description ko bilkul GitHub “About” section ke hisaab se short karke de dunga + proper **folder structure** (pbix / data / images) bhi suggest kar dunga.
+If you want, I can also write **GitHub repo “About” (1-line)** + **Topics/Tags** (PowerBI, DAX, DataCleaning, EducationAnalytics, etc.) in the same style.
