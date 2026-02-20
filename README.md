@@ -117,12 +117,12 @@ These KPIs give a quick snapshot of class performance.
 
 ## 📷 Dashboard Preview  
 
-```md
+
 ![FY Dashboard](Images/FY_dashboard.png)
-![SY Dashboard](https://github.com/mubeenshaikh2006/abeda-inamdar-cs-result-analysis-dashboard/blob/main/Images/SY_dashboard.jpeg)
+![SY Dashboard](Images/SY_dashboard.png)
 ![TY Dashboard](Images/TY_dashboard.png)
 ![Final Comparison Dashboard](Images/final_comparison.png)
-```
+
 
 ---
 
