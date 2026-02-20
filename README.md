@@ -129,9 +129,9 @@ Add your screenshots here:
 
 ## 👨‍💻 Contributors  
 - **Mubeen Shaikh**  
-- **Simran Sayyed**  
+- **Simran Sayyed** @simransayyed2005 
 - **Azmin Kazi**
 
 ---
 
-If you want, I can also write **GitHub repo “About” (1-line)** + **Topics/Tags** (PowerBI, DAX, DataCleaning, EducationAnalytics, etc.) in the same style.
+
