@@ -118,10 +118,10 @@ These KPIs give a quick snapshot of class performance.
 ## 📷 Dashboard Preview  
 
 ```md
-![FY Dashboard](FY_dashboard.png)
-![SY Dashboard](SY_dashboard.jpeg)
-![TY Dashboard](TY_dashboard.png)
-![Final Comparison Dashboard](final_comparison.png)
+![FY Dashboard](Images/FY_dashboard.png)
+![SY Dashboard](Images/SY_dashboard.jpeg)
+![TY Dashboard](Images/TY_dashboard.png)
+![Final Comparison Dashboard](Images/final_comparison.png)
 ```
 
 ---
