@@ -121,7 +121,7 @@ These KPIs give a quick snapshot of class performance.
 ![FY Dashboard](Images/FY_dashboard.png)
 
 ### 2) SY B.Sc. Computer Science – Result Analysis Dashboard
-![SY Dashboard](Images/TY_dashboard.png)
+![SY Dashboard](Images/SY_dashboard.png)
 
 ### 3) TY B.Sc. Computer Science – Result Analysis Dashboard
 ![TY Dashboard](Images/TY_dashboard.png)
